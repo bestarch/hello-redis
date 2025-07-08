@@ -1,0 +1,51 @@
+id,firstName,lastName,email,phone,dateOfBirth,gender,city,state,pincode,occupation,department,experience,bankName,branchCode,ifscCode,joinDate,status
+1,Rajesh,Kumar,rajesh.kumar@example.com,9876543210,1985-03-15,Male,Mumbai,Maharashtra,400001,Senior Manager,Retail Banking,15,HDFC Bank,MUM001,HDFC0000001,2010-06-20,Active
+2,Priya,Sharma,priya.sharma@example.com,9876543211,1990-07-22,Female,Delhi,Delhi,110001,Assistant Manager,Corporate Banking,8,ICICI Bank,DEL002,ICIC0000002,2015-09-15,Active
+3,Amit,Patel,amit.patel@example.com,9876543212,1988-11-10,Male,Ahmedabad,Gujarat,380001,Branch Manager,Operations,12,State Bank of India,AHM003,SBIN0000003,2012-03-10,Active
+4,Sneha,Reddy,sneha.reddy@example.com,9876543213,1992-05-18,Female,Hyderabad,Telangana,500001,Credit Analyst,Risk Management,6,Axis Bank,HYD004,UTIB0000004,2017-01-25,Active
+5,Vikram,Singh,vikram.singh@example.com,9876543214,1987-09-30,Male,Bangalore,Karnataka,560001,Vice President,Investment Banking,14,Kotak Mahindra Bank,BLR005,KKBK0000005,2011-07-12,Active
+6,Anita,Gupta,anita.gupta@example.com,9876543215,1991-02-14,Female,Pune,Maharashtra,411001,Relationship Manager,Wealth Management,7,Yes Bank,PUN006,YESB0000006,2016-04-18,Active
+7,Suresh,Nair,suresh.nair@example.com,9876543216,1986-12-05,Male,Kochi,Kerala,682001,Deputy Manager,Treasury,11,Federal Bank,KOC007,FDRL0000007,2013-08-22,Active
+8,Kavita,Joshi,kavita.joshi@example.com,9876543217,1989-06-28,Female,Jaipur,Rajasthan,302001,Senior Analyst,Compliance,9,IndusInd Bank,JAI008,INDB0000008,2014-11-30,Active
+9,Ravi,Menon,ravi.menon@example.com,9876543218,1984-10-12,Male,Chennai,Tamil Nadu,600001,Regional Head,Commercial Banking,16,Canara Bank,CHE009,CNRB0000009,2009-05-15,Active
+10,Deepa,Shah,deepa.shah@example.com,9876543219,1993-01-25,Female,Surat,Gujarat,395001,Executive,Customer Service,5,Bank of Baroda,SUR010,BARB0000010,2018-06-10,Active
+11,Arjun,Verma,arjun.verma@example.com,9876543220,1988-04-17,Male,Lucknow,Uttar Pradesh,226001,Manager,Loan Processing,10,Punjab National Bank,LUC011,PUNB0000011,2013-09-05,Active
+12,Shalini,Rao,shalini.rao@example.com,9876543221,1990-08-09,Female,Mysore,Karnataka,570001,Assistant Vice President,Digital Banking,8,RBL Bank,MYS012,RATN0000012,2015-12-20,Active
+13,Karthik,Iyer,karthik.iyer@example.com,9876543222,1987-03-21,Male,Coimbatore,Tamil Nadu,641001,Senior Manager,Audit,13,South Indian Bank,COI013,SIBL0000013,2011-02-14,Active
+14,Pooja,Mehta,pooja.mehta@example.com,9876543223,1991-11-03,Female,Nagpur,Maharashtra,440001,Credit Manager,SME Banking,7,IDFC First Bank,NAG014,IDFB0000014,2016-07-28,Active
+15,Santosh,Das,santosh.das@example.com,9876543224,1985-07-16,Male,Kolkata,West Bengal,700001,General Manager,International Banking,15,UCO Bank,KOL015,UCBA0000015,2010-10-12,Active
+16,Neha,Chopra,neha.chopra@example.com,9876543225,1992-09-28,Female,Chandigarh,Chandigarh,160001,Deputy Manager,Mobile Banking,6,Bandhan Bank,CHD016,BDBL0000016,2017-03-15,Active
+17,Manish,Saxena,manish.saxena@example.com,9876543226,1986-05-11,Male,Bhopal,Madhya Pradesh,462001,Vice President,Private Banking,14,DCB Bank,BHO017,DCBL0000017,2011-01-20,Active
+18,Anjali,Pillai,anjali.pillai@example.com,9876543227,1989-12-24,Female,Thiruvananthapuram,Kerala,695001,Senior Executive,Cards Division,9,CSB Bank,TVM018,CSBK0000018,2014-05-08,Active
+19,Rohit,Agarwal,rohit.agarwal@example.com,9876543228,1987-02-07,Male,Indore,Madhya Pradesh,452001,Branch Head,Priority Banking,12,City Union Bank,IND019,CIUB0000019,2012-08-18,Active
+20,Meera,Banerjee,meera.banerjee@example.com,9876543229,1990-10-19,Female,Guwahati,Assam,781001,Manager,NRI Banking,8,Karur Vysya Bank,GUW020,KVBL0000020,2015-11-25,Active
+21,Arun,Krishnan,arun.krishnan@example.com,9876543230,1984-06-02,Male,Madurai,Tamil Nadu,625001,Chief Manager,Agricultural Banking,17,Indian Bank,MAD021,IDIB0000021,2008-04-10,Active
+22,Divya,Pandey,divya.pandey@example.com,9876543231,1991-04-14,Female,Varanasi,Uttar Pradesh,221001,Assistant Manager,Forex,7,Bank of India,VAR022,BKID0000022,2016-09-22,Active
+23,Nikhil,Bhatt,nikhil.bhatt@example.com,9876543232,1988-08-26,Male,Vadodara,Gujarat,390001,Senior Manager,Trade Finance,11,Union Bank of India,VAD023,UBIN0000023,2013-01-15,Active
+24,Swati,Kulkarni,swati.kulkarni@example.com,9876543233,1992-01-08,Female,Nashik,Maharashtra,422001,Executive,Insurance,5,Central Bank of India,NAS024,CBIN0000024,2018-04-05,Active
+25,Gaurav,Sinha,gaurav.sinha@example.com,9876543234,1986-11-20,Male,Patna,Bihar,800001,Deputy General Manager,Credit Cards,14,Indian Overseas Bank,PAT025,IOBA0000025,2011-06-28,Active
+26,Rashmi,Desai,rashmi.desai@example.com,9876543235,1989-03-03,Female,Rajkot,Gujarat,360001,Manager,Microfinance,10,Equitas Small Finance Bank,RAJ026,ESFB0000026,2014-10-10,Active
+27,Vijay,Nambiar,vijay.nambiar@example.com,9876543236,1985-09-15,Male,Thrissur,Kerala,680001,Assistant General Manager,Project Finance,16,Dhanlaxmi Bank,THR027,DLXB0000027,2009-12-05,Active
+28,Archana,Mishra,archana.mishra@example.com,9876543237,1991-05-27,Female,Ranchi,Jharkhand,834001,Senior Executive,Digital Payments,7,AU Small Finance Bank,RAN028,AUBL0000028,2016-02-18,Active
+29,Prakash,Hegde,prakash.hegde@example.com,9876543238,1987-12-10,Male,Mangalore,Karnataka,575001,Vice President,Asset Management,13,Karnataka Bank,MAN029,KARB0000029,2012-05-22,Active
+30,Sunita,Choudhury,sunita.choudhury@example.com,9876543239,1990-07-22,Female,Bhubaneswar,Odisha,751001,Deputy Manager,Retail Loans,8,Lakshmi Vilas Bank,BHU030,LAVB0000030,2015-08-15,Active
+31,Ashok,Malhotra,ashok.malhotra@example.com,9876543240,1984-02-04,Male,Amritsar,Punjab,143001,General Manager,Cash Management,18,J&K Bank,AMR031,JAKA0000031,2007-11-20,Active
+32,Rekha,Tiwari,rekha.tiwari@example.com,9876543241,1992-10-16,Female,Agra,Uttar Pradesh,282001,Executive,Priority Sector,5,Nainital Bank,AGR032,NTBL0000032,2018-01-12,Active
+33,Sunil,Joseph,sunil.joseph@example.com,9876543242,1988-06-28,Male,Ernakulam,Kerala,682011,Manager,Export Credit,11,Tamilnad Mercantile Bank,ERN033,TMBL0000033,2013-04-25,Active
+34,Mamta,Kapoor,mamta.kapoor@example.com,9876543243,1989-11-10,Female,Ludhiana,Punjab,141001,Senior Manager,Vehicle Finance,10,Ujjivan Small Finance Bank,LUD034,UJVN0000034,2014-07-08,Active
+35,Rajeev,Bose,rajeev.bose@example.com,9876543244,1986-04-23,Male,Siliguri,West Bengal,734001,Assistant Vice President,Merchant Banking,13,Suryoday Small Finance Bank,SIL035,SURY0000035,2012-10-30,Active
+36,Geeta,Naidu,geeta.naidu@example.com,9876543245,1991-08-05,Female,Visakhapatnam,Andhra Pradesh,530001,Deputy Manager,Housing Finance,7,Fincare Small Finance Bank,VIS036,FSFB0000036,2016-05-15,Active
+37,Harish,Shetty,harish.shetty@example.com,9876543246,1985-12-17,Male,Udupi,Karnataka,576101,Chief Manager,Working Capital,16,ESAF Small Finance Bank,UDU037,ESAF0000037,2009-03-10,Active
+38,Nandini,Goyal,nandini.goyal@example.com,9876543247,1990-02-28,Female,Dehradun,Uttarakhand,248001,Manager,Education Loans,9,North East Small Finance Bank,DEH038,NESF0000038,2015-06-22,Active
+39,Aditya,Mukherjee,aditya.mukherjee@example.com,9876543248,1987-09-11,Male,Durgapur,West Bengal,713201,Senior Manager,Letter of Credit,12,Capital Small Finance Bank,DUR039,CLBL0000039,2013-11-05,Active
+40,Shruti,Agnihotri,shruti.agnihotri@example.com,9876543249,1992-05-24,Female,Raipur,Chhattisgarh,492001,Executive,Bancassurance,6,Shivalik Small Finance Bank,RAI040,SMCB0000040,2017-08-18,Active
+41,Pankaj,Dubey,pankaj.dubey@example.com,9876543250,1986-10-06,Male,Kanpur,Uttar Pradesh,208001,Deputy General Manager,Treasury Operations,15,Jana Small Finance Bank,KAN041,JSFB0000041,2010-01-25,Active
+42,Kavya,Ramachandran,kavya.ramachandran@example.com,9876543251,1989-01-18,Female,Tiruchirappalli,Tamil Nadu,620001,Assistant Manager,Commodity Finance,9,Unity Small Finance Bank,TRI042,USFB0000042,2014-04-12,Active
+43,Sanjay,Guha,sanjay.guha@example.com,9876543252,1984-07-31,Male,Asansol,West Bengal,713301,Vice President,Structured Finance,17,Utkarsh Small Finance Bank,ASA043,UTKS0000043,2008-09-05,Active
+44,Ananya,Bhattacharya,ananya.bhattacharya@example.com,9876543253,1991-11-13,Female,Cuttack,Odisha,753001,Manager,MSME Banking,8,Paytm Payments Bank,CUT044,PYTM0000044,2015-12-28,Active
+45,Vivek,Rathore,vivek.rathore@example.com,9876543254,1988-03-26,Male,Jodhpur,Rajasthan,342001,Senior Manager,Agri Business,11,Airtel Payments Bank,JOD045,AIRP0000045,2013-06-15,Active
+46,Priyanka,Sen,priyanka.sen@example.com,9876543255,1990-09-08,Female,Howrah,West Bengal,711101,Deputy Manager,Government Business,8,India Post Payments Bank,HOW046,IPOS0000046,2015-10-20,Active
+47,Rahul,Chatterjee,rahul.chatterjee@example.com,9876543256,1987-05-20,Male,Dhanbad,Jharkhand,826001,Assistant General Manager,Capital Markets,13,Fino Payments Bank,DHA047,FINO0000047,2012-02-10,Active
+48,Shilpa,Saini,shilpa.saini@example.com,9876543257,1992-12-02,Female,Faridabad,Haryana,121001,Executive,Remittances,5,Jio Payments Bank,FAR048,JIOP0000048,2018-05-25,Active
+49,Alok,Srivastava,alok.srivastava@example.com,9876543258,1985-08-14,Male,Meerut,Uttar Pradesh,250001,General Manager,Institutional Banking,16,NSDL Payments Bank,MEE049,NSDL0000049,2009-07-08,Active
+50,Monica,Arora,monica.arora@example.com,9876543259,1989-04-27,Female,Gurgaon,Haryana,122001,Manager,Transaction Banking,10,Aditya Birla Payments Bank,GUR050,ABPB0000050,2014-09-30,Active
