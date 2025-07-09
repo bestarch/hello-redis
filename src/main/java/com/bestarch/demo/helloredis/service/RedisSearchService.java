@@ -49,9 +49,31 @@ public class RedisSearchService {
 	}
 	
 	
+	public void findAllUsersWithPagination(int offset, int limit) {
+		logger.info("Get all users with pagination");
+		logger.info("Search query -->"
+					+ "ft.search user_index * return 10 "
+					+ "firstName lastName experience email age dateOfBirth city branchCode gender department LIMIT 0 10");
+		
+		Query q = new Query("*")
+				.returnFields("firstName", "lastName", "experience", "email", "age", 
+						"dateOfBirth", "city", "branchCode", "gender", "department")
+		        .limit(offset, limit);
+
+		SearchResult sr = jedis.ftSearch("user_index", q);
+		if (sr != null) {
+			List<Document> documents = sr.getDocuments();
+			documents.forEach((d) -> {
+				logger.info(d.toString());
+			});
+		}
+		logger.info("***********************************************");
+		
+	}
+	
 	public void findAllUsersWithMoreThan15YearsExp() {
 		logger.info("Get all users with more than 15 years of experience");
-		logger.info("Search query --> \n"
+		logger.info("Search query -->"
 				+ "ft.search user_index '@experience:[15 50]' return 10 "
 				+ "firstName lastName experience email age dateOfBirth city branchCode gender department");
 		
@@ -68,13 +90,14 @@ public class RedisSearchService {
 				logger.info(d.toString());
 			});
 		}
+		logger.info("***********************************************");
 		
 	}
 	
 	
 	public void findAllFemaleUsersBasedOutOfMaharashtraAndLessThan25YearsofAge() {
 		logger.info("Get all female users based out of Maharashtra");
-		logger.info("Search query --> \n"
+		logger.info("Search query -->"
 				+ "ft.search user_index '@state:{Maharashtra} @gender:{Female}' return 10 "
 				+ "firstName lastName experience email age dateOfBirth city branchCode gender department");
 		
@@ -90,12 +113,12 @@ public class RedisSearchService {
 				logger.info(d.toString());
 			});
 		}
-		
+		logger.info("***********************************************");
 	}
 	
 	public void findTotalNoOfusersByState() {
 		logger.info("Get count of users by state");
-		logger.info("Search query --> \n"
+		logger.info("Search query -->"
 				+ "FT.AGGREGATE user_index '*' GROUPBY 1 @state REDUCE COUNT 0 as noOfUsers SORTBY 2 @noOfUsers DESC");
 		
 		AggregationBuilder ab = new AggregationBuilder("*")
@@ -109,8 +132,7 @@ public class RedisSearchService {
 				logger.info(r.toString());
 			});
 		}
-		
+		logger.info("***********************************************");
 	}
-	
 	
 }

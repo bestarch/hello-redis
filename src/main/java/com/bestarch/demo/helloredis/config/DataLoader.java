@@ -20,7 +20,7 @@ import com.opencsv.CSVReaderBuilder;
 import jakarta.annotation.PostConstruct;
 import redis.clients.jedis.UnifiedJedis;
 
-//@Component
+@Component
 public class DataLoader {
 	
 	private Logger logger = LoggerFactory.getLogger(getClass());

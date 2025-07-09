@@ -29,8 +29,8 @@ public class HelloRedisApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		logger.info("Executing some Redis commands");
-		redisNativeDSService.testAll();
+//		logger.info("Executing some Redis commands");
+//		redisNativeDSService.testAll();
 		
 		try {
 			redisSearchService.createIndex();
@@ -38,6 +38,7 @@ public class HelloRedisApplication implements CommandLineRunner{
 			logger.error("Index user_index might exist");
 			e.printStackTrace();
 		}
+		redisSearchService.findAllUsersWithPagination(0, 10);
 		redisSearchService.findAllUsersWithMoreThan15YearsExp();
 		redisSearchService.findAllFemaleUsersBasedOutOfMaharashtraAndLessThan25YearsofAge();
 		redisSearchService.findTotalNoOfusersByState();
